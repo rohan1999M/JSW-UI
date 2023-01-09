@@ -1,0 +1,50 @@
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<div class="Nav-div">  
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" routerLink="/dis">Caster Details</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/converting">Heat Under Running ID</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/caster">SOP Document Download</a>
+        </li>
+      </ul>
+
+
+    <nav class="nav-link">
+       <a href="#">Caster Details</a>
+        <a href="#">Heat Production</a>
+        <a href="#">Tundish Temp</a>
+        <a href="#">Abnormaaty</a>
+        <a href="#">Consumables</a>
+        <a href="#">Slab Anormaiaty</a>
+        <a href="#">Slag Details</a>
+        <a href="#">Slab Details</a>
+    </nav>
+</div>
+<div class="title-div">
+    <div id="title">
+    <p>Heat Production</p>
+    </div>
+    <div>
+        <button id="btn3">Grade finalize</button>
+        <button id="btn3">save</button>
+    </div>
+
+</div>
+ 
+<div id="main-div" class="clearfix">
+    <div id="left-div">
+        <app-form-field></app-form-field>
+    </div>
+    <div id="right-div">
+        <div id="sample"><app-sample-box></app-sample-box></div>
+         <div id="ab"><app-abnormality-box></app-abnormality-box></div>
+        <div id="Process-div"><app-process-box></app-process-box></div> 
+    </div>
+</div>

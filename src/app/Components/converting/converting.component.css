@@ -1,0 +1,23 @@
+/* table tr td{
+    border: 1px solid black;
+}
+table tr th{
+    border: 1px solid black;
+}
+.table{
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+table{
+    width: 100%;
+}
+th{
+    background-color: rgb(114, 180, 235);
+    text-align: center;
+    padding: 2px;
+    width: 12%;
+}
+td{
+    text-align: center;
+} */

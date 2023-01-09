@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+#msgBox{
+    width:100%;
+    min-height: 200px;
+    /* margin: 20px; */
+    box-shadow: 0px 0px 2px 0px;
+    background-color:white;
+
+}
+.text{
+    background-color: rgb(217, 217, 218);
+    min-height: 29px;
+    line-height: 29px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 800;
+    font-family: Arial;
+    box-shadow: 0px 0.5px 1px 0px;
+}
+.flex-container{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+}
+.flex-item{
+    /* margin-top: 6px; */
+}
+#flex-btn1{
+    background-color: #3A73B9;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: white;
+    font-weight: bolder;
+    flex-basis: 40px;
+    text-align: center;
+    font-family: Arial;
+    border-radius: 10%;
+    font-size: 12px;
+    margin-top: 7px;
+}
+.Msg-Div{
+    background-color:white;
+    padding: 9px;
+}
+.Msg-Div , p {
+    color: rgb(99, 99, 99);
+    font-size: 12px;
+    font-weight: bold;
+    /* margin-bottom: 1px; */
+}
+
+textarea{
+    background-color: rgba(140, 177, 231, 0.295);
+    padding: 16px;
+    border-radius: 6px;
+    font-size: 12px;
+    width: 100%;
+}

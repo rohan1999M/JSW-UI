@@ -1,0 +1,27 @@
+.Process-div{
+    /* width: 12%; */
+    /* margin: 20px; */
+    min-height: 150px;
+    box-shadow: 0px 0px 0.6px 0.3px;
+    /* line-height: 2px; */
+}
+
+
+.tittle{
+    background-color: rgba(231, 229, 229, 0.726);
+    font-size: 15px;
+    min-height: 50px;
+    color:#3A73B9;
+    line-height: 50px;
+    font-weight: bolder;
+   padding-left: 5%;
+
+}
+.main-div{
+    height: 150px;
+    
+}
+.form-Div,input{
+    font-size: 11px;
+     padding: 10px;
+}
